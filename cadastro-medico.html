@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Médico</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/form-medico.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="lista-medicos.html">Medicos</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DO MEDICO</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="nome">
+                nome
+                <br>
+                <input type="text" name="input-nome" placeholder="insira o nome do medico" required>
+            </label>
+            <label for="especialidade">
+                especialidade
+                <br>
+                <input type="text" name="input-autor-especialidade" placeholder="insira a especialidade do medico" required>
+            </label>
+            <label for="CRM">
+                CRM
+                <br>
+                <input type="number" name="input-crm" placeholder="Insira a CRM" required>
+            </label>
+            <label for="Email">
+               Email
+                <br>
+                <input type="text" name="input-email" placeholder="Insira o email" required>
+            </label>
+
+            <input type="button" value="CADASTRAR" onclick="cadastrarMedico()">
+        </form>
+    </div>
+    <script src="js/cadastroMedico.js"></script>
+</body>
+
+</html>

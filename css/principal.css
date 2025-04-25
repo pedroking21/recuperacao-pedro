@@ -20,6 +20,16 @@ body {
     background-color: var(--bg-color);
 }
 
+.painel-esquerdo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* opcional, só pra estilo */
+}
+
+
 /* TÍTULO */
 h1 {
     text-align: center;
@@ -27,12 +37,15 @@ h1 {
     margin-top: 2rem;
     color: #000000;
     font-weight: bold;
-}
-h2 {
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4); /* sombra inferior direita */
+  }
+  
+  h2 {
     color: #000000;
     font-weight: bold;
-}
-
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4); /* mesma sombra */
+  }
+  
 .painel {
     display: flex;
     flex-direction: row;
@@ -40,8 +53,8 @@ h2 {
     height: 6rem;
 }
 
-.esquerda, 
-.meio, 
+.esquerda,
+.meio,
 .direita {
     width: 33%;
 

@@ -35,12 +35,13 @@ input[type="number"] {
     height: 3.5rem;
     padding-left: 10px;
     margin-top: 0.5rem;
-    border: 1px solid #ccc;
     border-radius: 5px;
     border: none;
     outline: none;
     background-color: #0A3D62;
+    color: white; /* ← essa linha faz o texto digitado ficar branco */
 }
+
 
 input[type="button"] {
     background-color: #0A3D62;
@@ -57,6 +58,6 @@ input[type="button"] {
 
 /* Ajusta o hover do botão para ter feedback visual */
 input[type="button"]:hover {
-    background-color: #0B51DB /* Cor mais escura ao passar o mouse */
+    background-color: #0a5f9b /* Cor mais escura ao passar o mouse */
 }
 
